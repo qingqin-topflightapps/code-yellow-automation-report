@@ -1,0 +1,650 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+    My Groups page - view LnQ alerts from ""Scheduled"" tab
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the home page
+    3. View LnQ alerts from ""Scheduled"" tab
+    4. Verify the LnQ alerts are displayed
+    ","3403","test_14_1_0_viewing_LnQ_alerts_from_scheduled_tab","tests","Fri Sep 26 18:06:30 JST 2025","passed","Fri Sep 26 18:06:34 JST 2025","","test_14_Multiple_LnQ_Alert","",""
+"
+    As a user I can send a failed to finalized study notification - Duplicated Order ID
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Send a failed to finalized study notification - Duplicated Order ID
+    4. Verify the failed to finalized study notification is sent
+    ","9662","test_4_1_0_sending_failed_to_finalized_study_notification_duplicated_order_id","tests","Fri Sep 26 18:10:35 JST 2025","passed","Fri Sep 26 18:10:44 JST 2025","","test_4_RVU_tracker","",""
+"
+    User can see the local time on LnQ alerts under My Group
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the groups page
+    3. View LnQ alerts from ""Scheduled"" tab
+    4. Verify the LnQ is displayed with the local time
+    ","4662","test_14_9_0_user_can_see_the_local_time_on_LnQ_alerts_under_My_Group","tests","Fri Sep 26 18:07:32 JST 2025","passed","Fri Sep 26 18:07:36 JST 2025","","test_14_Multiple_LnQ_Alert","",""
+"
+    View Provider List for Targeting
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the provider list for targeting
+    3. Verify the provider list for targeting
+    ","7120","test_7_1_0_viewing_provider_list_for_targeting","tests","Fri Sep 26 18:16:24 JST 2025","passed","Fri Sep 26 18:16:32 JST 2025","","test_7_Targeted_LNQ_Alerts","",""
+"
+    As a user I can navigate to RVU Tracker and check the chart of RVUs (sorted by last name in alphabetical order)
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Navigate to RVU Tracker and check the chart of RVUs (sorted by last name in alphabetical order)
+    4. Verify the chart of RVUs is set
+    ","9129","test_4_7_0_navigating_to_rvu_tracker_and_checking_chart_of_rvus","tests","Fri Sep 26 18:14:00 JST 2025","passed","Fri Sep 26 18:14:09 JST 2025","","test_4_RVU_tracker","",""
+"
+    Viewing All Groups
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Groups page
+    3. Verify All Groups section is visible
+    4. Click on All Groups section, and verify the group details page is visible
+    ","4311","test_2_3_0_viewing_all_groups","tests","Fri Sep 26 18:15:07 JST 2025","passed","Fri Sep 26 18:15:11 JST 2025","","test_2_Group_Admin_Provider","",""
+"
+    Entering the registration requirements details with invalid phone number
+
+    Test Steps:
+    1. Navigate to the registration page
+    2. Fill in the basic information with invalid phone number
+    3. Enter the other required fields
+    4. Accept the terms and continue
+    5. Verify continue button is disabled
+    ","1395","test_1_1_0_invalid_phone_number","tests","Fri Sep 26 18:20:02 JST 2025","passed","Fri Sep 26 18:20:03 JST 2025","","test_1_Provider_authentication","",""
+"
+    Validate Presence of 'Leave Group' Button
+    ","3016","test_2_1_0_validate_presence_of_leave_group_button","tests","Fri Sep 26 18:14:52 JST 2025","passed","Fri Sep 26 18:14:55 JST 2025","","test_2_Group_Admin_Provider","",""
+"
+    Register without accepting terms
+
+    Test Steps:
+    1. Navigate to the registration page
+    2. Fill in the basic information
+    3. Select the specialty
+    4. Select the work preferences
+    5. Set the work types
+    6. Select the states
+    7. Set the malpractice insurance
+    8. Not accept the terms and continue
+    9. Verify continue button is disabled
+    ","8874","test_1_1_0_register_without_accepting_terms","tests","Fri Sep 26 18:20:14 JST 2025","passed","Fri Sep 26 18:20:23 JST 2025","","test_1_Provider_authentication","",""
+"
+    Viewing Group details page
+
+    Test Steps:
+    1. Login as an admin
+    2. Navigate to Groups page
+    3. Click on My Groups section
+    4. Click on the Group Name
+    5. Verify the group details page is visible
+    ","2264","test_2_1_0_viewing_group_details_page","tests","Fri Sep 26 18:14:19 JST 2025","passed","Fri Sep 26 18:14:21 JST 2025","","test_2_Group_Admin_Provider","",""
+"
+    Verify filters on the complete studies tab
+
+    Test Steps:
+    1. Login as a group admin
+    2. User clicks on the Group name - Group that I administer
+    3. User clicks on the ""Complete Studies"" tab
+    4. User verifies the filters for Payable to Reader
+    5. User verifies the filters for Payment status
+    6. User verifies the filters for Cross Filtering 
+    7. User verifies the filters for Search for Provider Name or NPI
+    ","23548","test_2_6_0_verify_filters_on_complete_studies_tab","tests","Fri Sep 26 18:15:43 JST 2025","passed","Fri Sep 26 18:16:06 JST 2025","","test_2_Group_Admin_Provider","",""
+"
+    As a responding provider, I want to respond to the specific LnQ alert
+
+    Test Steps:
+    1. Login as a responding provider
+    2. Navigate to the LnQ alert
+    3. Respond to the LnQ alert
+    4. Verify the LnQ alert is responded to
+    ","19862","test_7_2_0_responding_to_the_specific_LnQ_alert","tests","Fri Sep 26 18:17:31 JST 2025","passed","Fri Sep 26 18:17:51 JST 2025","","test_7_Targeted_LNQ_Alerts","",""
+"
+    As an Admin, I can Edit Group
+
+    Test Steps:
+    1. Login as an admin
+    2. Navigate to Groups page
+    3. Click on My Groups section
+    4. From the top menu, clicks on ""Edit Group""
+    5. User performs some editing on: Group Name, Phone number, Description, Time zone
+    6. User clicks on ""Save Changes""
+    ","6715","test_2_1_0_editing_group","tests","Fri Sep 26 18:14:24 JST 2025","passed","Fri Sep 26 18:14:31 JST 2025","","test_2_Group_Admin_Provider","",""
+"
+    Checking the presence and functionality of ""Select All"" button
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the provider list for targeting
+    3. Verify the presence and functionality of ""Select All"" button
+    ","11709","test_7_1_0_checking_the_presence_and_functionality_of_select_all_button","tests","Fri Sep 26 18:16:56 JST 2025","passed","Fri Sep 26 18:17:07 JST 2025","","test_7_Targeted_LNQ_Alerts","",""
+"
+    Targeted Individual LnQ
+
+    Test Steps:
+    1. Login as a provider      
+    2. Click on ""Create LnQ""
+    3. Verify the targeted individual LnQ
+    ","20608","test_9_4_0_targeted_individual_LnQ","tests","Fri Sep 26 18:19:30 JST 2025","passed","Fri Sep 26 18:19:50 JST 2025","","test_9_Individual_LnQ_Alert","",""
+"
+    Provider activates individual alerts
+
+    Test Steps:
+    1. Login as a provider
+    2. Click on ""Create LnQ""
+    3. User selected ""Group LnQ"" and clicks on next
+    4. User selects one of the group and clicks on confirm
+    5. The window pops out with ""You’re activating LnQ for MBPB. Do you want to proceed?"" and user clicks on Next
+    6. User enters the amount $ and clicks on ""Next""
+    7. User select on the providers
+    8. Click on ""Confirm""
+    9. Verify the LnQ is activated for the group
+    ","10991","test_9_1_0_provider_activates_individual_alerts","tests","Fri Sep 26 18:18:22 JST 2025","passed","Fri Sep 26 18:18:33 JST 2025","","test_9_Individual_LnQ_Alert","",""
+"
+    As a user I can select on the dates to filter the RVU information
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to RVU Tracker page
+    3. Select the dates to filter the RVU information
+    4. Verify the RVU information is filtered
+    ","5099","test_4_1_0_selecting_dates_to_filter_RVU_information","tests","Fri Sep 26 18:09:41 JST 2025","passed","Fri Sep 26 18:09:46 JST 2025","","test_4_RVU_tracker","",""
+"
+    As a user I can send a failed to finalized study notification - non-existing NPI number
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Send a failed to finalized study notification - non-existing NPI number
+    4. Verify the failed to finalized study notification is sent
+    ","9489","test_4_1_0_sending_failed_to_finalized_study_notification_non_existing_npi_number","tests","Fri Sep 26 18:10:47 JST 2025","passed","Fri Sep 26 18:10:57 JST 2025","","test_4_RVU_tracker","",""
+"
+    Entering all the registration requirements details
+
+    Test Steps:
+    1. Navigate to the registration page
+    2. Fill in the basic information
+    3. Select the specialty
+    4. Select the work preferences
+    5. Set the work types
+    6. Select the states
+    7. Set the malpractice insurance
+    8. Accept the terms and continue
+    9. Verify the success message
+    ","9375","test_1_1_0_entering_the_registration_requirements_details","tests","Fri Sep 26 18:19:51 JST 2025","passed","Fri Sep 26 18:20:00 JST 2025","","test_1_Provider_authentication","",""
+"
+    Successfully navigate to account settings
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Settings page
+    3. Verify General tab is visible
+    4. Verify Security tab is accessible
+    5. Verify Notifications tab is accessible
+    ","7010","test_1_4_0_successfully_navigate_to_account_settings","tests","Fri Sep 26 18:20:29 JST 2025","passed","Fri Sep 26 18:20:36 JST 2025","","test_1_Provider_authentication","",""
+"
+    Viewing Security Section
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Settings page
+    3. Click on Security tab
+    4. Verify Security section is visible
+    5. Verify Two-factor Authentication section
+    6. Verify Password section
+    ","5137","test_1_4_0_viewing_security_section","tests","Fri Sep 26 18:20:47 JST 2025","passed","Fri Sep 26 18:20:53 JST 2025","","test_1_Provider_authentication","",""
+"
+    Security - Provider editing on Change Password
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Settings page
+    3. Click on Security tab
+    4. Enter current password
+    5. Enter new valid password
+    6. Confirm new password
+    7. Save changes
+    8. Verify success message
+    ","15255","test_1_4_0_change_password_success","tests","Fri Sep 26 18:20:55 JST 2025","passed","Fri Sep 26 18:21:11 JST 2025","","test_1_Provider_authentication","",""
+"
+    View Group Members tab
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Groups page
+    3. Click on the group you want to view members for
+    4. Verify the group members page is visible
+    ","5772","test_3_2_0_viewing_group_members","tests","Fri Sep 26 18:08:30 JST 2025","passed","Fri Sep 26 18:08:36 JST 2025","","test_3_Non_Admin_Prodiver","",""
+"
+    As a user I can send a failed to finalized study notification
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Send a failed to finalized study notification
+    4. Verify the failed to finalized study notification is sent
+    ","7570","test_4_1_0_sending_failed_to_finalized_study_notification_non_existing_facility","tests","Fri Sep 26 18:10:13 JST 2025","passed","Fri Sep 26 18:10:21 JST 2025","","test_4_RVU_tracker","",""
+"
+    As a user I can select on the group to filter the RVU information
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to RVU Tracker page
+    3. Select the group to filter the RVU information
+    4. Verify the RVU information is filtered
+    ","9648","test_4_1_0_selecting_group_to_filter_RVU_information","tests","Fri Sep 26 18:09:49 JST 2025","passed","Fri Sep 26 18:09:59 JST 2025","","test_4_RVU_tracker","",""
+"
+    View Members of Multiple Groups
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Groups page
+    3. Click on ""All groups"" tab
+    4. Click on the group you want to view members for
+    5. Verify all the group members page is visible
+    ","7793","test_3_2_0_viewing_members_of_multiple_groups","tests","Fri Sep 26 18:08:39 JST 2025","passed","Fri Sep 26 18:08:47 JST 2025","","test_3_Non_Admin_Prodiver","",""
+"
+    Apply to Join a Group
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Groups page
+    3. Click on ""All groups"" tab
+    4. Click on the group you want to apply to
+    5. Click on ""Apply to join"" button
+    6. Verify you are redirected to the group details page
+    7. Verify you are now a member of the group
+    ","8408","test_3_2_0_applying_to_join_a_group","tests","Fri Sep 26 18:08:19 JST 2025","passed","Fri Sep 26 18:08:27 JST 2025","","test_3_Non_Admin_Prodiver","",""
+"
+    Enable Targeted Alerts for Group Admins
+
+    Test Steps:
+    1. Navigate to the registration page
+    2. Fill in the basic information
+    3. Select the specialty
+    4. Select the work preferences
+    5. Set the work types
+    6. Select the states
+    7. Set the malpractice insurance
+    8. Accept the terms and continue
+    9. Verify the success message
+    ","12113","test_7_1_0_enabling_targeted_alerts_for_group_admins","tests","Fri Sep 26 18:16:09 JST 2025","passed","Fri Sep 26 18:16:21 JST 2025","","test_7_Targeted_LNQ_Alerts","",""
+"
+    As a user I can specify Alert USD/RVU Value
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Specify Alert USD/RVU Value
+    4. Verify the Alert USD/RVU Value is set
+    ","17794","test_4_2_0_specifying_alert_usd_rvu_value","tests","Fri Sep 26 18:11:00 JST 2025","passed","Fri Sep 26 18:11:18 JST 2025","","test_4_RVU_tracker","",""
+"
+    Activate LnQ - Group
+    Test Steps:
+    1. Login as a provider
+    2. Click on ""Create LnQ""
+    3. User selected ""Group LnQ"" and clicks on next
+    4. User selects one of the group and clicks on confirm
+    5. The window pops out with ""You’re activating LnQ for MBPB. Do you want to proceed?"" and user clicks on Next
+    6. User enters the amount $ and clicks on ""Next""
+    7. User select on the providers
+    8. Click on ""Confirm""
+    9. Verify the LnQ is activated for the group
+    ","14263","test_3_3_0_activating_LnQ_for_a_group","tests","Fri Sep 26 18:08:50 JST 2025","passed","Fri Sep 26 18:09:04 JST 2025","","test_3_Non_Admin_Prodiver","",""
+"
+    Logging in with invalid credentials
+
+    Test Steps:
+    1. Navigate to the login page
+    2. Enter the invalid email and password
+    3. Click the login button
+    4. Verify the error message
+    ","1803","test_1_2_0_logging_in_with_invalid_credentials","tests","Fri Sep 26 18:20:25 JST 2025","passed","Fri Sep 26 18:20:27 JST 2025","","test_1_Provider_authentication","",""
+"
+    Verify Personal/Group selection step appears during mobile scheduled LnQ creation flow
+
+    Test Steps:
+    1. Login as a provider
+    2. Click on ""Create LnQ""
+    3. User selected ""Group LnQ"" and clicks on next
+    4. User selects one of the group and clicks on confirm
+    5. The window pops out with ""You’re activating LnQ for MBPB. Do you want to proceed?"" and user clicks on Next
+    6. User enters the amount $ and clicks on ""Next""
+    7. User select on the providers
+    8. Click on ""Confirm""
+    9. Verify the LnQ is activated for the group
+    ","19389","test_9_1_0_scheduled_LnQ_creation_flow","tests","Fri Sep 26 18:18:35 JST 2025","passed","Fri Sep 26 18:18:55 JST 2025","","test_9_Individual_LnQ_Alert","",""
+"
+    User creates LnQ alert with the time zone display - personal
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the groups page
+    3. Create LnQ alert with the time zone display - personal
+    4. Verify the LnQ is displayed with the local time      
+    ","4501","test_14_9_0_user_creates_LnQ_alert_with_the_time_zone_display_personal","tests","Fri Sep 26 18:07:42 JST 2025","passed","Fri Sep 26 18:07:46 JST 2025","","test_14_Multiple_LnQ_Alert","",""
+"
+    As a user I can view Payment Status
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. View Payment Status
+    4. Verify the Payment Status is set
+    ","4309","test_4_5_0_viewing_payment_status","tests","Fri Sep 26 18:13:44 JST 2025","passed","Fri Sep 26 18:13:48 JST 2025","","test_4_RVU_tracker","",""
+"
+    Multiple alerts are active in one same LnQ group
+
+    Test Steps:
+    1. Login as a provider
+    2. Click on ""Create LnQ""
+    3. Verify the multiple alerts are active in one same LnQ group
+    ","29144","test_9_1_0_multiple_alerts_are_active_in_one_same_LnQ_group","tests","Fri Sep 26 18:18:58 JST 2025","passed","Fri Sep 26 18:19:27 JST 2025","","test_9_Individual_LnQ_Alert","",""
+"
+    My Groups page - deactivate LnQ
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the groups page
+    3. Deactivate LnQ for a group
+    4. Verify the LnQ is deactivated
+    ","4314","test_14_2_0_deactivating_LnQ","tests","Fri Sep 26 18:06:52 JST 2025","passed","Fri Sep 26 18:06:56 JST 2025","","test_14_Multiple_LnQ_Alert","",""
+"
+    As a user I can initiate an ORM Message - When NPI number does not map providers in the system
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Initiate an ORM Message - When NPI number does not map providers in the system
+    4. Verify the Payment Status is not set
+    ","25927","test_4_4_0_initiating_orm_message_invalid_npi_not_mapped","tests","Fri Sep 26 18:12:38 JST 2025","passed","Fri Sep 26 18:13:04 JST 2025","","test_4_RVU_tracker","",""
+"
+    Home page - view LnQ alerts from ""Groups that I administer"" - Status
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the home page
+    3. View LnQ alerts from ""Groups that I administer"" - Status
+    4. Verify the LnQ alerts are displayed
+    ","3336","test_14_1_0_viewing_LnQ_alerts_from_groups_that_I_administer_status","tests","Fri Sep 26 18:06:03 JST 2025","passed","Fri Sep 26 18:06:06 JST 2025","","test_14_Multiple_LnQ_Alert","",""
+"
+    My Groups page - activate LnQ
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the groups page
+    3. Activate LnQ for a group
+    4. Verify the LnQ is activated
+    ","3766","test_14_2_0_activating_LnQ","tests","Fri Sep 26 18:06:39 JST 2025","passed","Fri Sep 26 18:06:43 JST 2025","","test_14_Multiple_LnQ_Alert","",""
+"
+    As a user I can view Completed Studies
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. View Completed Studies
+    4. Verify the Completed Studies is set
+    ","3778","test_4_5_0_viewing_completed_studies","tests","Fri Sep 26 18:13:37 JST 2025","passed","Fri Sep 26 18:13:40 JST 2025","","test_4_RVU_tracker","",""
+"
+    Reselecting all providers after unselecting multiple options
+    ","17989","test_7_1_0_reselecting_all_providers_after_unselecting_multiple_options","tests","Fri Sep 26 18:17:10 JST 2025","passed","Fri Sep 26 18:17:28 JST 2025","","test_7_Targeted_LNQ_Alerts","",""
+"
+    View complete Studies tab
+
+    Test Steps:
+    1. Login as a group admin
+    2. User clicks on the Group name - Group that I administer
+    3. User clicks on the ""Complete Studies"" tab
+    ","3315","test_2_6_0_view_complete_studies_tab","tests","Fri Sep 26 18:15:37 JST 2025","passed","Fri Sep 26 18:15:40 JST 2025","","test_2_Group_Admin_Provider","",""
+"
+    As a user I can validate RVU association for studies
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Validate RVU association for studies
+    4. Verify the RVU association for studies is set
+    ","6091","test_4_6_0_validating_rvu_association_for_studies","tests","Fri Sep 26 18:13:51 JST 2025","passed","Fri Sep 26 18:13:57 JST 2025","","test_4_RVU_tracker","",""
+"
+    Editing the General Information section
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Settings page
+    3. Edit First Name field
+    4. Edit Last Name field
+    5. Edit NPI Number field
+    6. Edit Phone field
+    7. Save changes
+    8. Verify success message
+    9. Verify changes are persisted
+    ","5127","test_1_4_0_editing_the_general_information_section","tests","Fri Sep 26 18:20:39 JST 2025","passed","Fri Sep 26 18:20:45 JST 2025","","test_1_Provider_authentication","",""
+"
+    Viewing My Groups
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Groups page
+    3. Verify My Groups section is visible
+    4. Click on My Groups section, and verify the group details page is visible
+    ","3670","test_2_1_0_viewing_my_groups","tests","Fri Sep 26 18:14:12 JST 2025","passed","Fri Sep 26 18:14:16 JST 2025","","test_2_Group_Admin_Provider","",""
+"
+    As a user I can apply Default Alert USD/RVU Value
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Apply Default Alert USD/RVU Value
+    4. Verify the Default Alert USD/RVU Value is set
+    ","22539","test_4_2_0_applying_default_alert_usd_rvu_value","tests","Fri Sep 26 18:11:20 JST 2025","passed","Fri Sep 26 18:11:42 JST 2025","","test_4_RVU_tracker","",""
+"
+    As a group admin, I can toggle on & off for Targeted Provider
+
+    Test Steps: 
+    1. User navigate to ""Groups"" and clicks on ""My Group"" tab
+    2. Clicks on ""3 dots"" and select the option ""Targeted Provider""
+    3. Toggle on & off for Targeted Provider
+    4. Verify the Targeted Provider is toggled on & off
+    ","7586","test_2_1_0_toggling_targeted_provider","tests","Fri Sep 26 18:14:41 JST 2025","passed","Fri Sep 26 18:14:48 JST 2025","","test_2_Group_Admin_Provider","",""
+"
+    View Groups to Join
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Groups page
+    3. Click on ""All groups"" tab
+    4. Verify list of all existing groups: names, descriptions, locations, and an 'Apply to join' CTA for each.
+    ","13877","test_3_1_0_viewing_groups_to_join","tests","Fri Sep 26 18:08:02 JST 2025","passed","Fri Sep 26 18:08:16 JST 2025","","test_3_Non_Admin_Prodiver","",""
+"
+    As a user I can initiate an ORM Message - Non-Payable
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Initiate an ORM Message - Non-Payable
+    4. Verify the Completed Studies is set
+    ","20716","test_4_4_0_initiating_orm_message_non_payable","tests","Fri Sep 26 18:11:45 JST 2025","passed","Fri Sep 26 18:12:06 JST 2025","","test_4_RVU_tracker","",""
+"
+    As a user I can send a failed to finalized study notification - empty fields
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Send a failed to finalized study notification - empty fields
+    4. Verify the failed to finalized study notification is sent
+    ","7584","test_4_1_0_sending_failed_to_finalized_study_notification_empty_fields","tests","Fri Sep 26 18:10:24 JST 2025","passed","Fri Sep 26 18:10:32 JST 2025","","test_4_RVU_tracker","",""
+"
+    Deactivate Personal LnQ Alert
+    Test Steps:
+    1. Login as a provider
+    2. Click on Home Page from the navigation bar.
+    3. Click on ""Deactivate""  button and toggle off for Personal LnQ Alert
+    5. Verify the LnQ is deactivated for the group
+    ","13301","test_3_4_0_deactivating_personal_LnQ_alert","tests","Fri Sep 26 18:09:24 JST 2025","passed","Fri Sep 26 18:09:38 JST 2025","","test_3_Non_Admin_Prodiver","",""
+"
+    As a group admin, I can assign other member as group admin
+
+    Test Steps:
+    1. Login as an admin
+    2. User navigate to ""Groups"" and clicks on ""My Group"" tab
+    3. Clicks on ""3 dots"" and select the option ""Make Group Admin""
+    4. Check on the new admin's Home page
+    ","4108","test_2_1_0_assigning_group_admin","tests","Fri Sep 26 18:14:34 JST 2025","passed","Fri Sep 26 18:14:38 JST 2025","","test_2_Group_Admin_Provider","",""
+"
+    Register with existing email
+
+    Test Steps:
+    1. Navigate to the registration page
+    2. Fill in the basic information with existing email
+    3. Verify the error message in toast notification
+    ","10634","test_1_1_0_register_with_existing_email","tests","Fri Sep 26 18:20:03 JST 2025","passed","Fri Sep 26 18:20:14 JST 2025","","test_1_Provider_authentication","",""
+"
+    User can see the local time on LnQ scheduled list
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the groups page
+    3. View LnQ alerts from ""Scheduled"" tab
+    4. Verify the LnQ is displayed with the local time
+    ","4547","test_14_9_0_user_can_see_the_local_time_on_LnQ_scheduled_list","tests","Fri Sep 26 18:07:17 JST 2025","passed","Fri Sep 26 18:07:22 JST 2025","","test_14_Multiple_LnQ_Alert","",""
+"
+    Active & Scheduled Alerts - see all the parameters set for LnQ alert
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the groups page
+    3. View LnQ alerts from ""Groups that I administer"" - Status
+    4. Verify the LnQ is displayed with all the parameters set
+    ","3260","test_14_10_0_active_and_scheduled_alerts_see_all_the_parameters_set_for_LnQ_alert","tests","Fri Sep 26 18:07:55 JST 2025","passed","Fri Sep 26 18:07:58 JST 2025","","test_14_Multiple_LnQ_Alert","",""
+"
+    User can see the local time on LnQ active list
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the groups page
+    3. View LnQ alerts from ""Groups that I administer"" - Status
+    4. Verify the LnQ is displayed with the local time
+    ","3384","test_14_9_0_user_can_see_the_local_time_on_LnQ_active_list","tests","Fri Sep 26 18:07:05 JST 2025","passed","Fri Sep 26 18:07:08 JST 2025","","test_14_Multiple_LnQ_Alert","",""
+"
+    As a user I can initiate an ORM Message - When the Group LnQ is Inactive
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Initiate an ORM Message - When the Group LnQ is Inactive
+    4. Verify the Payment Status is not set
+    ","27004","test_4_4_0_initiating_orm_message_invalid_group_lnq_inactive","tests","Fri Sep 26 18:13:07 JST 2025","passed","Fri Sep 26 18:13:34 JST 2025","","test_4_RVU_tracker","",""
+"
+    As a user I can initiate an ORM Message - Payable
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Initiate an ORM Message - Payable
+    4. Verify the Payment Status is set
+    ","25865","test_4_4_0_initiating_orm_message_payable","tests","Fri Sep 26 18:12:09 JST 2025","passed","Fri Sep 26 18:12:35 JST 2025","","test_4_RVU_tracker","",""
+"
+    Deactivate LnQ
+    Test Steps:
+    1. Login as a provider
+    2. Click on Home Page from the navigation bar.
+    3. Click on ""Deactivate""  button and toggle off
+    5. Verify the LnQ is deactivated for the group
+    ","14099","test_3_3_0_deactivating_LnQ_for_a_group","tests","Fri Sep 26 18:09:07 JST 2025","passed","Fri Sep 26 18:09:21 JST 2025","","test_3_Non_Admin_Prodiver","",""
+"
+    As a user I can send a finalized study notification
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to home page
+    3. Send a finalized study notification
+    4. Verify the finalized study notification is sent
+    ","8815","test_4_1_0_sending_finalized_study_notification","tests","Fri Sep 26 18:10:02 JST 2025","passed","Fri Sep 26 18:10:10 JST 2025","","test_4_RVU_tracker","",""
+"
+    Entering the registration requirements details with missing required fields
+
+    Test Steps:
+    1. Navigate to the registration page
+    2. Fill in the basic information
+    3. Select the specialty
+    4. Select the work preferences
+    5. Set the work types
+    6. Select the states
+    7. Set the malpractice insurance
+    8. Accept the terms and continue
+    9. Verify the error message
+    ","1422","test_1_1_0_missing_required_fields","tests","Fri Sep 26 18:20:00 JST 2025","passed","Fri Sep 26 18:20:02 JST 2025","","test_1_Provider_authentication","",""
+"
+    As a responding provider, I want to tracking number of providers responding to LnQ alert
+
+    Test Steps:
+    1. Login as a responding provider
+    2. Navigate to the LnQ alert
+    3. Tracking number of providers responding to LnQ alert
+    4. Verify the LnQ alert is responded to
+    ","23799","test_7_2_0_tracking_number_of_providers_responding_to_LnQ_alert","tests","Fri Sep 26 18:17:54 JST 2025","passed","Fri Sep 26 18:18:18 JST 2025","","test_7_Targeted_LNQ_Alerts","",""
+"
+    My Groups page - view LnQ alerts from ""Groups that I administer"" - Targeted
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the home page
+    3. View LnQ alerts from ""Groups that I administer"" - Targeted
+    4. Verify the LnQ alerts are displayed
+    ","4847","test_14_1_0_viewing_LnQ_alerts_from_groups_that_I_administer_targeted","tests","Fri Sep 26 18:06:16 JST 2025","passed","Fri Sep 26 18:06:21 JST 2025","","test_14_Multiple_LnQ_Alert","",""
+"
+    Group Creation and Cancel Group Creation
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Groups page
+    3. Click on ""Create Group"" button
+    4. Fill in the group details
+    5. Click on ""Cancel"" button, the group is not created
+
+    6. Click on ""Create Group"" button
+    7. Fill in the group details
+    8. Click on ""Create Group"" button
+    9. Verify the group is created
+    10. Click on ""Cancel"" button, the group is not created
+    ","19953","test_2_4_0_group_creation_and_cancel_group_creation","tests","Fri Sep 26 18:15:14 JST 2025","passed","Fri Sep 26 18:15:34 JST 2025","","test_2_Group_Admin_Provider","",""
+"
+    Choose Providers to Target
+
+    Test Steps:
+    1. Login as a group admin
+    2. Navigate to the provider list for targeting
+    3. Verify the provider list for targeting
+    ","18049","test_7_1_0_choosing_providers_to_target","tests","Fri Sep 26 18:16:35 JST 2025","passed","Fri Sep 26 18:16:53 JST 2025","","test_7_Targeted_LNQ_Alerts","",""
+"
+    Logging in as a provider
+
+    Test Steps:
+    1. Navigate to the login page
+    2. Enter the valid email and password
+    3. Click the login button
+    4. Verify the success message
+    ","1769","test_1_2_0_logging_in_as_a_provider","tests","Fri Sep 26 18:20:23 JST 2025","passed","Fri Sep 26 18:20:25 JST 2025","","test_1_Provider_authentication","",""
+"
+    Viewing Providers within a group
+
+    Test Steps:
+    1. Login as a provider
+    2. Navigate to Groups page
+    3. Click on page navigation (page 3)
+    4. Select FMOLHS group
+    5. Verify group details page elements
+    6. Verify action buttons are visible
+    7. Verify tab navigation is present
+    8. Verify provider table elements
+    ","7270","test_2_2_0_viewing_providers_within_group","tests","Fri Sep 26 18:14:57 JST 2025","passed","Fri Sep 26 18:15:05 JST 2025","","test_2_Group_Admin_Provider","",""
