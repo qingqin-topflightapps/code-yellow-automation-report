@@ -1,0 +1,7 @@
+Login successful.
+Navigated to Settings page.
+Switched to Security tab.
+Security section is visible.
+Generated new password: TestPass1008192842!
+Config updated with new password: TestPass1008192842!
+Signed out.

@@ -1,0 +1,18 @@
+Days dropdown shows: 3 days selected
+Work types selected
+Toggling work type: weekdays to True
+Looking for switch with ID: switch-weekdays
+Current state: Off
+Clicking switch switch-weekdays
+New state: On
+Successfully handled weekdays
+Toggling work type: weekends to False
+Looking for switch with ID: switch-weekends
+Current state: Off
+Successfully handled weekends
+Toggling work type: swing_shifts to True
+Looking for switch with ID: switch-swingShifts
+Current state: Off
+Clicking switch switch-swingShifts
+New state: On
+Successfully handled swing_shifts

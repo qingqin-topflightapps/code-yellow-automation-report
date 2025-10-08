@@ -1,0 +1,11 @@
+Login successful.
+Navigated to Groups page.
+Switched to All Groups tab.
+Found group: FMOLHS
+Clicked on group: FMOLHS
+False
+True
+Group detail page loaded successfully.
+All group detail page elements verified successfully.
+Providers tab is active by default.
+Group has 4 providers.
