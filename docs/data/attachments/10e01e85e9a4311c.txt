@@ -1,0 +1,4 @@
+Login successful.
+Home page object created.
+Home page is visible after login.
+Clicked on Settings link in sidebar.
