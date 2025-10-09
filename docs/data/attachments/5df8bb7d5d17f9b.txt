@@ -1,0 +1,4 @@
+Login successful.
+Navigated to Settings page.
+Settings page loaded successfully.
+Switched to Security tab.

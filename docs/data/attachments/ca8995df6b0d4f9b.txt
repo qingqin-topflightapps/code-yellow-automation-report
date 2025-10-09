@@ -1,0 +1,3 @@
+Login successful.
+Navigated to Groups page.
+My Groups section is visible.
