@@ -1,0 +1,5 @@
+Login successful
+Navigated to Groups page.
+My Groups section is visible.
+Clicked on New Group button.
+Filled in group details.
